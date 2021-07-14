@@ -11,7 +11,6 @@ class App extends Component {
       monsters: [],
       searchField: "",
     };
-    
   }
 
   componentDidMount() {
@@ -29,7 +28,9 @@ class App extends Component {
     const filteredMonster = monsters.filter((monster) =>
       monster.name.toLowerCase().includes(searchField.toLocaleLowerCase())
     );
-    return (
+    return this.state.monsters.length === 0 ? (
+      <h2> Loading Monsters ... </h2>
+    ) : (
       <div className="App">
         <h1>Monsters Rolodex</h1>
         <InputBox onSearchChange={this.onSearchChange} />
