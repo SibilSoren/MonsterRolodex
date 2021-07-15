@@ -10,10 +10,11 @@ This is a practice project done by me, to learn the basic concepts of React, Thi
 ![App Screenshot](./images/screenshot.JPG)
 
 ## Screenshot of Search feature in the app
-![App Screenshot](./images/screenshot2.JPG)
+![App Screenshot](./images/scrrenshot2.JPG)
 
 
 ### API used 
 
 [Robot Hash](https://robohash.org/)
+
 [Fake Users API](https://jsonplaceholder.typicode.com/users)
